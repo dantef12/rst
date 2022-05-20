@@ -176,7 +176,7 @@ let distance = 0
 distance = 10
 radio.setGroup(40)
 basic.showIcon(IconNames.Yes)
-strip = neopixel.create(DigitalPin.P16, 3, NeoPixelMode.RGB)
+strip = neopixel.create(DigitalPin.P0, 3, NeoPixelMode.RGB)
 strip.setBrightness(100)
 RED()
 count = 0
